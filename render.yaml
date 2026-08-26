@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-video-studio-pro
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: PORT
+        value: 8501

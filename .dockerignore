@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+renders/temp/*
+test_render.mp4
+test_edge.mp3
+video_final.mp4
